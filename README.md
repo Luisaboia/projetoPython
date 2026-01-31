@@ -8,13 +8,16 @@ Este projeto reúne scripts em Python desenvolvidos para auxiliar no ensino e ap
 
 O objetivo é automatizar cálculos repetitivos, permitindo que estudantes e professores foquem na análise dos fenômenos físicos e na lógica por trás das equações.
 
+## 🛠️ Pré-requisitos e Instalação
+Para executar os scripts que geram gráficos, é necessário instalar as bibliotecas externas. No seu terminal, execute:
+
+`pip install numpy matplotlib`
+
 ## 📂 Estrutura do Projeto
 
 O projeto está organizado em módulos temáticos para facilitar a navegação:
 
 ```text
-Física E.M/
-│
 ├── 🚗 Cinemática/          # Estudo do movimento
 │   ├── colisoes1D.py       # Quantidade de movimento e colisões
 │   ├── lancamentoObliquo.py# Decomposição de vetores e trajetórias
